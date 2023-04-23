@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+
+.App{
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  overflow:hidden;
+}
+.HeaderSafeZone{
+  height: calc(100vh - 115px);
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  
+}
+.FlexRowContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.FlexItem{
+  flex: 1;
+  text-align: center;
+}
+
+
+.TopBar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 215px;
+  width: 100%;
+}
+
+.TopBarFlexContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 5540 215' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-110.367,0)'%3E%3Crect id='Top-Bar' x='0' y='0' width='5760' height='1080' style='fill:none;'/%3E%3Cg id='Top-Bar1'%3E%3Cpath d='M205,115L110.367,0L5649.63,0L5555,115L3473.93,115L3379.3,215L2380.7,215L2286.07,115L205,115Z' style='fill:rgb(52,30,151);'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: cover;
+
+}
+
+.TopBarCentralTime{
+  font-size: 96pt;
+  font-weight: 200;
+}
+
+.TopBarMinimizedComponent{
+  position: relative;
+  transform: translateY(-80%);
+  font-size: 36pt;
+}
+
+
+.BorderedBox{
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 1850 835' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-60,-215)'%3E%3Crect id='Top-Bar' x='0' y='0' width='5760' height='1080' style='fill:none;'/%3E%3Cg id='Top-Bar1'%3E%3Cpath d='M205,115L110.367,0L5649.63,0L5555,115L3473.93,115L3379.3,215L2380.7,215L2286.07,115L205,115Z' style='fill:rgb(52,30,151);'/%3E%3Cpath d='M210,215L1910,215L1910,900L1760,1050L60,1050L60,365L210,215ZM222.944,246.25L91.25,377.944C91.25,377.944 91.25,1018.75 91.25,1018.75L1747.06,1018.75L1878.75,887.056C1878.75,887.056 1878.75,246.25 1878.75,246.25L222.944,246.25Z' style='fill:rgb(28,209,161);'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  overflow: hidden;
+}
+.BorderedBoxContent{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.BoxHeader{
+  color: #1CD1A1;
+  font-size: 48pt;
+  font-weight: 400;
+  
+}
+
+
+.ScoreBoardTable{
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+.AnimatedLogo{
+  z-index: 100;
+  width: 960;
+  height: 960;
+}

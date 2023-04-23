@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1850 835" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-60,-215)">
+        <rect id="Top-Bar"  x="0" y="0" width="5760" height="1080" style="fill:none;"/>
+        <g id="Top-Bar1">
+            <path d="M205,115L110.367,0L5649.63,0L5555,115L3473.93,115L3379.3,215L2380.7,215L2286.07,115L205,115Z" style="fill:rgb(52,30,151);"/>
+            <path d="M210,215L1910,215L1910,900L1760,1050L60,1050L60,365L210,215ZM222.944,246.25L91.25,377.944C91.25,377.944 91.25,1018.75 91.25,1018.75L1747.06,1018.75L1878.75,887.056C1878.75,887.056 1878.75,246.25 1878.75,246.25L222.944,246.25Z" style="fill:rgb(28,209,161);"/>
+        </g>
+    </g>
+</svg>
